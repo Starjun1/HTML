@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the Italian menu at Trattoria Trussardi in Morioh.">
+    <meta name="keywords" content="Italian restaurant, Morioh, pasta, risotto, Italian menu">
     <title>Menu | Trattoria Trussardi</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
     <link rel="stylesheet" href="ma.css">
 </head>
 <body>
     <header>
-        <h1>Trattoria Trussardi!</h1>
-        <nav aria-label="Main Navigation">
+        <a href="Start.html" class="home-link">
+            <h1>Trattoria Trussardi!</h1>
+        </a>
+
+        <a href="Start.html" class="home-link" aria-label="Return to the front page">
+            <img class="header-banner"
+                 src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\400px-Tonio_Trussardi_Infobox_Anime.png"
+                 alt="Chef Tonio Trussardi">
+        </a>
+
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="Start.html">Start</a></li>
                 <li><a aria-current="page" href="Meny.html">Menu</a></li>
@@ -21,86 +33,94 @@
     <main>
         <section class="menu-page" aria-labelledby="menu-title">
             <h2 id="menu-title">Our Menu</h2>
-            <p>Welcome to our menu! We offer a variety of traditional Italian dishes made with the freshest ingredients.</p>
+            <p>Traditional Italian dishes prepared with fresh ingredients.</p>
 
-        <section class="menu-grid" aria-label="Menu dishes">
-            <article class = "dish">
-                <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\Mineral_Water.png" alt="Mineral water served in a glass">
-                <div>
-                    <h3>Aperitivo — Mineral Water</h3>
-                    <p>50,000-year-old melted snow from Mt. Kilimanjaro.</p>
-                    <p><strong>$3.00</strong></p>
-                </div>
-            </article>
+            <!-- Each article describes one menu item; the section is styled as a grid. -->
+            <section class="menu-grid" aria-label="Menu dishes">
+                <article class="dish">
+                    <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\Mineral_Water.png" alt="Mineral water served in a glass">
+                    <div>
+                        <h3>Aperitivo — Mineral Water</h3>
+                        <p>50,000-year-old melted snow from Mt. Kilimanjaro.</p>
+                        <p><strong>$3.00</strong></p>
+                    </div>
+                </article>
 
-            <article class = "dish">
-                <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\225px-MozarellaTomato.png" alt="Caprese salad with tomatoes and mozzarella">
-                <div>
-                    <h3>Antipasto — Caprese Salad</h3>
-                    <p>Mozzarella, tomato, anchovy fillet, seaweed, and Sicilian basil.</p>
-                    <p><strong>$8.80</strong></p>
-                </div>
-            </article>
+                <article class="dish">
+                    <img src="225px-MozarellaTomato.png" alt="Caprese salad with tomato and mozzarella">
+                    <div>
+                        <h3>Antipasto — Caprese Salad</h3>
+                        <p>Mozzarella, tomato, anchovy fillet, seaweed, and Sicilian basil.</p>
+                        <p><strong>$8.80</strong></p>
+                    </div>
+                </article>
 
-            <article class = "dish">
-                <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\225px-SpaghettiPuttanesca.png" alt="A plate of spaghetti">
-                <div>
-                    <h3>Primo — Spaghetti alla Puttanesca</h3>
-                    <p>Garlic, black olives, anchovy, hot pepper, and parsley.</p>
-                    <p><strong>$10.00</strong></p>
-                </div>
-            </article>
+                <article class="dish">
+                    <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\225px-SpaghettiPuttanesca.png" alt="Spaghetti alla Puttanesca">
+                    <div>
+                        <h3>Primo — Spaghetti alla Puttanesca</h3>
+                        <p>Garlic, black olives, anchovy, hot pepper, and parsley.</p>
+                        <p><strong>$10.00</strong></p>
+                    </div>
+                </article>
 
-            <article class = "dish">
-                <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\225px-Abalone_Risotto.png" alt="Creamy risotto in a bowl">
-                <div>
-                    <h3>Primo — Abalone Risotto</h3>
-                    <p>Rare-sliced abalone, cheese, winter melon, and abalone liver sauce.</p>
-                    <p><strong>$18.00</strong></p>
-                </div>
-            </article>
+                <article class="dish">
+                    <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\225px-Abalone_Risotto.png" alt="Abalone risotto">
+                    <div>
+                        <h3>Primo — Abalone Risotto</h3>
+                        <p>Rare-sliced abalone, cheese, winter melon, and abalone liver sauce.</p>
+                        <p><strong>$18.00</strong></p>
+                    </div>
+                </article>
 
-            <article class = "dish">
-                <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\225px-LambChop.png" alt="Grilled lamb chops served with vegetables">
-                <div>
-                    <h3>Secondo — Lamb Chops with Applesauce</h3>
-                    <p>Three chops with sweet-and-sour applesauce and asparagus dressing.</p>
-                    <p><strong>$20.00</strong></p>
-                </div>
-            </article>
-            <article class="dish">
-                    <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\225px-Octopus_Tomato_Sauce.png" alt="Octopus dish served with tomato sauce">
+                <article class="dish">
+                    <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\225px-LambChop.png" alt="Lamb chops with applesauce">
+                    <div>
+                        <h3>Secondo — Lamb Chops with Applesauce</h3>
+                        <p>Three chops with sweet-and-sour applesauce and asparagus dressing.</p>
+                        <p><strong>$20.00</strong></p>
+                    </div>
+                </article>
+
+                <article class="dish">
+                    <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\225px-Octopus_Tomato_Sauce.png" alt="Octopus served in tomato sauce">
                     <div>
                         <h3>Secondo — Octopus in Tomato Sauce</h3>
-                        <p>Tender tentacles with a rich, slow-simmered tomato sauce.</p>
+                        <p>Tender tentacles in a rich, slow-simmered tomato sauce.</p>
                         <p><strong>$16.50</strong></p>
                     </div>
-            </article>
+                </article>
 
-            <article class="dish">
-                    <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\225px-Pudding.png" alt="Caramel pudding">
+                <article class="dish">
+                    <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\225px-Pudding.png" alt="Pudding with caramel">
                     <div>
                         <h3>Dolce — Pudding with Caramel</h3>
                         <p>Silky house-made pudding topped with caramel.</p>
                         <p><strong>$5.00</strong></p>
                     </div>
-            </article>
-            <article class="dish">
-                    <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\Crostata_Drama.png" alt="Homemade fruit pie">
+                </article>
+
+                <article class="dish">
+                    <img src="C:\Users\yoonis.ghuled\Documents\HTML\Övninguppgift\Projekt\Crostata_Drama.png" alt="Homemade crostata pie">
                     <div>
                         <h3>Dolce — Crostata</h3>
                         <p>House pie made using a family recipe.</p>
                         <p><strong>$6.00</strong></p>
                     </div>
-            </article>
+                </article>
+            </section>
         </section>
-    </section>
     </main>
 
     <footer class="footer">
-        <p>Morioh 15, 123 45 Japan</p>
-        <a href="tel:+1234567890">+1 234 567 890</a>
-        <a href="mailto:info@trattoria-trussardi.se">Contact us</a>
+        <address>Morioh 15, 123 45 Japan</address>
+        <p><a href="tel:+1234567890">+1 234 567 890</a></p>
+        <p><a href="mailto:info@trattoria-trussardi.se">info@trattoria-trussardi.se</a></p>
+        <p>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            ·
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </p>
         <p>&copy; 2026 Trattoria Trussardi. All rights reserved.</p>
     </footer>
 </body>
