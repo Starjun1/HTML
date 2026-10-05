@@ -1,0 +1,32 @@
+div.CENTER {
+    background-color: #ff31a2;
+    height: 50px;
+    border-radius: 10px;
+    }
+
+div.MIDDLE {
+    background-color: #ff31a2;
+    height: 470px;
+    border-radius: 10px;
+    }   
+
+h2 {
+    color: white;
+    font-family: papyrus;
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
+    }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}

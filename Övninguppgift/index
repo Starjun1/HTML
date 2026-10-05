@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="responsiveStyle.css">
+</head>
+<body>
+    <div class = "Box" style = "background-color: #04ea2e;">
+        <p>kewefwfwfwfnwejfnnnnnnnnnnnnnnwjenfewjnfjwfnwejfnwjfnwjekfnj</p>
+    </div>
+    <div class = "Box" style = "background-color: #f5c22a;">
+        <p>kewefwfwfwfnwejfnnnnnnnnnnnnnnwjenfewjnfjwfnwejfnwjfnwjekfnj</p>
+    </div>
+    <div class = "Box" style = "background-color: #33c6f7; height: 150px;">
+        <p>kewefwfwfwfnwejfnnnnnnnnnnnnnnwjenfewjnfjwfnwejfnwjfnwjekfnj</p>
+    </div>
+    <div class = "Box" style = "background-color: #d179f9; height: 150px;">
+        <p>kewefwfwfwfnwejfnnn<br>nnnnnnnnnnnwjenfe<br>wfnwejfnwjfnwjekfnjwjnfj</p>
+    </div>
+</body>
+</html>
