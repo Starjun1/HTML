@@ -6,6 +6,53 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Trattoria Trussardi!</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="Start.html">Start</a></li>
+                <li><a href="Meny.html">Menu</a></li>
+                <li><a aria-current="page" href="Boka.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class = "Booking-page">
+        <section aria-labelledby="booking-title">
+            <h2 id="booking-title">Book a Table</h2>
+            <p>Welcome to our reservation page! Please fill out the form below to book a table at Trattoria Trussardi.</p>
+            
+            <!-- Labels are connected to their fields to make the form easier to use. -->
+            <form class="booking-form">
+            <form class = "booking-form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div>
+                    <label for="time">Time:</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <div>
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" min="1" max="20" required>
+                </div>
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Morioh 15, 123 45 Japan</p>
+        <a href="tel:+1234567890">+1 234 567 890</a>
+        <a href="mailto:info@trattoria-trussardi.se">Contact us</a>
+        <p>&copy; 2026 Trattoria Trussardi. All rights reserved.</p>
+    </footer>
 </body>
 </html>
